@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>Game</title>
+</head>
+<body>
+    <!-- Asks for person, color, noun, adjective -->
+    <h1>Let's play a game!</h1>
+    <form action='/result'>
+        What is your name?  <input type="text" name="person">
+        <br>
+        <br>
+      Select a color:
+        <select name="color">
+
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>    
+            <option value="purple">Purple</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+        </select>
+
+<!--         <input type="text" name="color">What is your favorite color? -->
+        <br>
+        <br>
+        Pick a noun! <input type="text" name="noun">
+        <br>
+        <br>
+        Pick an adjective! <input type="text" name="adjective">
+        <br>
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
