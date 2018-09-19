@@ -1,11 +1,13 @@
 <!doctype html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="/static/madlibs.css">
   <title>Game</title>
 </head>
 <body>
     <!-- Asks for person, color, noun, adjective -->
     <h1>Let's play a game!</h1>
+    <div>
     <form action='/result'>
         What is your name?  <input type="text" name="person">
         <br>
@@ -29,8 +31,15 @@
         Pick an adjective! <input type="text" name="adjective">
         <br>
         <br>
+        <input type="checkbox" name="night">Night
+        <input type="checkbox" name="sky">In the sky
+        <input type="checkbox" name="underwater">Underwater
+        <br>
+        <br>
+
         <input type="submit">
 
     </form>
+    </div>
 </body>
 </html>

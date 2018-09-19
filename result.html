@@ -8,6 +8,17 @@
         There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab.
         When {{ person }} went to pick it up, it burst into flames in a totally
         {{ adjective }} way.
+
+        {%if night != None%}
+        On a dark and spooky night, {{ person }} was wandering around and found the scraps of the {{ color }} {{ noun }} that had burst into flames.
+        It was still {{ adjective }}. Also, it was a dream.
+        {%endif%}
+        {%if sky != None%}
+        Days later, {{ person }} finds themselves on a {{color}} magical carpet, soaring through the sky with a {{ noun }} in the center of their palm. Is this still a dream?
+        {%endif%}
+        {%if underwater != None%}
+        Gasping for air, {{person}} surfaces to the top of the ocean, clinging onto the {{noun}} to survive. They see themselves in the reflection of the water and notice that their skin has turned {{color}}.
+        {%endif%}
     </p>
 
 </body>
